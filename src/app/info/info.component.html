@@ -1,0 +1,41 @@
+<div class="tablita">
+  <h3><i class="far fa-address-book"></i>
+    Asignatura: {{nom_materia}}<span>{{edad}}</span></h3>
+  <br>  
+  <br>
+  <div class="container" (keyup)='0'>
+    <label for="" class="form-">materia</label>
+    <input class="form-control" style="width: 25%;" #materia>
+    {{materia.value}}
+  </div>
+  <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido</th>
+            <th scope="col">Programa</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Juanito</td>
+            <td>Pérez</td>
+            <td>Ingeniería de Sistemas</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Jacobo</td>
+            <td>Rodriguez</td>
+            <td>Ingeniería de Sistemas</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Andres</td>
+            <td>Lopéz</td>
+            <td>Ingeniería de Sistemas</td>
+          </tr>
+        </tbody>
+      </table>
+</div>

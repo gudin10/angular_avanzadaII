@@ -1,0 +1,7 @@
+.d-flex,.flex-column{
+    background-color: #003444;
+    font-family: helveticanormal!important;
+}
+.nav-pills a:hover{
+    background-color: #00923F;
+}
